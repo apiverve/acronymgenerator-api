@@ -1,0 +1,34 @@
+{
+  "name": "@apiverve/acronymgenerator",
+  "version": "1.1.9",
+  "description": "Acronym Generator is an AI-powered tool for creating creative acronyms from text. It returns 3 unique acronym suggestions for any given phrase.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "mocha",
+    "example": "node examples/basic.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/acronymgenerator-API.git"
+  },
+  "keywords": [
+    "acronym", "acronym generator", "text to acronym", "creative acronyms", "acronym creation"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/acronymgenerator-API/issues"
+  },
+  "homepage": "https://apiverve.com/marketplace/acronymgenerator?utm_source=npm",
+  "devDependencies": {
+    "mocha": "^11.0.1",
+    "chai": "^5.1.2",
+    "dotenv": "^16.4.7"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "promise": "^8.3.0",
+    "axios": "1.13.2"
+  }
+}
