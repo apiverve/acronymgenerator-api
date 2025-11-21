@@ -10,6 +10,7 @@ using System.Net.Http;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
+using System.Linq;
 
 namespace APIVerve.Examples
 {
@@ -28,16 +29,11 @@ namespace APIVerve.Examples
                 using var client = new HttpClient();
                 client.DefaultRequestHeaders.Add("x-api-key", API_KEY);
 
-                // Build query parameters
-                var queryParams = new System.Collections.Generic.Dictionary<string, string>
-                {
-                    // Add your parameters here
-                    // ["param1"] = "value1"
-                };
+                // Query parameters
+                var queryParams &#x3D; new Dictionary&lt;string, string&gt; { [&quot;text&quot;] &#x3D; &quot;Application Programming Interface&quot; };
 
                 var queryString = string.Join("&",
                     queryParams.Select(kvp => $"{kvp.Key}={Uri.EscapeDataString(kvp.Value)}"));
-
                 var url = $"{API_URL}?{queryString}";
 
                 var response = await client.GetAsync(url);
