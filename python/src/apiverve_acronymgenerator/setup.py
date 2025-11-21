@@ -18,6 +18,12 @@ setup(
     author='APIVerve',
     author_email='hello@apiverve.com',
     url='https://apiverve.com',
+    project_urls={
+        'Homepage': 'https://apiverve.com',
+        'Documentation': 'https://docs.apiverve.com/ref/acronymgenerator',
+        'Source': 'https://github.com/apiverve/acronymgenerator-api',
+        'Bug Tracker': 'https://github.com/apiverve/acronymgenerator-api/issues'
+    },
     classifiers=[
         'Programming Language :: Python :: 3',
         'Operating System :: OS Independent',
