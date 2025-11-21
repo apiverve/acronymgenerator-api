@@ -23,11 +23,11 @@
 ```javascript
 async function callAcronymGeneratorAPI() {
     try {
-        const params &#x3D; new URLSearchParams({
-            text: &#x27;Application Programming Interface&#x27;
+        const params = new URLSearchParams({
+            text: 'Application Programming Interface'
         });
 
-        const response = await fetch(&#x60;https://api.apiverve.com/v1/acronymgenerator?${params}&#x60;, {
+        const response = await fetch(`https://api.apiverve.com/v1/acronymgenerator?${params}`, {
             method: 'GET',
             headers: {
                 'x-api-key': 'YOUR_API_KEY_HERE'
