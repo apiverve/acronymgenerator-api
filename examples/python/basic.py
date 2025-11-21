@@ -17,11 +17,8 @@ def call_acronymgenerator_api():
     Make a GET request to the Acronym Generator API
     """
     try:
-        # Build query parameters
-        params = {
-            # Add your parameters here
-            # Example: 'param1': 'value1'
-        }
+        # Query parameters
+        params &#x3D; {&#x27;text&#x27;: &#x27;Application Programming Interface&#x27;}
 
         headers = {
             'x-api-key': API_KEY
