@@ -7,8 +7,8 @@ The APIVerve team takes security seriously. If you discover a security vulnerabi
 ### 1. **Do Not** Open a Public Issue
 Please do not report security vulnerabilities through public GitHub issues.
 
-### 2. Email Us Directly
-Send details to: **security@apiverve.com**
+### 2. Contact Us Directly
+Submit a security report at: **[https://apiverve.com/contact](https://apiverve.com/contact)**
 
 Include:
 - Description of the vulnerability
@@ -17,7 +17,7 @@ Include:
 - Suggested fix (if any)
 
 ### 3. Response Time
-- We will acknowledge your email within **48 hours**
+- We will acknowledge your report within **48 hours**
 - We will send a detailed response within **7 days**
 - We will keep you informed of the progress
 
@@ -33,6 +33,8 @@ We provide security updates for the latest version of each package:
 - NPM: Latest version
 - NuGet: Latest version
 - Python: Latest version
+- CocoaPods: Latest version
+- Android: Latest version
 
 ## Security Best Practices
 
@@ -45,6 +47,4 @@ When using this API client:
 
 ## Questions?
 
-For general security questions, contact: **security@apiverve.com**
-
-For account security: [https://apiverve.com/contact](https://apiverve.com/contact)
+For security questions or concerns: [https://apiverve.com/contact](https://apiverve.com/contact)
