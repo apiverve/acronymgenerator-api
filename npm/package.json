@@ -10,7 +10,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/apiverve/acronymgenerator-API.git"
+    "url": "git+https://github.com/apiverve/acronymgenerator-api.git",
+    "directory": "npm"
   },
   "keywords": [
     "acronym", "acronym generator", "text to acronym", "creative acronyms", "acronym creation"
@@ -18,7 +19,7 @@
   "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/apiverve/acronymgenerator-API/issues"
+    "url": "https://github.com/apiverve/acronymgenerator-api/issues"
   },
   "homepage": "https://apiverve.com/marketplace/acronymgenerator?utm_source=npm",
   "devDependencies": {
