@@ -7,8 +7,14 @@ declare module '@apiverve/acronymgenerator' {
   export interface acronymgeneratorResponse {
     status: string;
     error: string | null;
-    data: any;
+    data: AcronymGeneratorData;
     code?: number;
+  }
+
+
+  interface AcronymGeneratorData {
+      text:     string;
+      acronyms: string[];
   }
 
   export default class acronymgeneratorWrapper {
