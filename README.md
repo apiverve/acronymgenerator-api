@@ -11,7 +11,6 @@
 [![npm](https://img.shields.io/badge/npm-CB3837?style=flat&logo=npm&logoColor=white)](https://www.npmjs.com/package/@apiverve/acronymgenerator)
 [![NuGet](https://img.shields.io/badge/NuGet-004880?style=flat&logo=nuget&logoColor=white)](https://www.nuget.org/packages/APIVerve.API.AcronymGenerator)
 [![PyPI](https://img.shields.io/badge/PyPI-3776AB?style=flat&logo=python&logoColor=white)](https://pypi.org/project/apiverve-acronymgenerator/)
-[![CocoaPods](https://img.shields.io/badge/CocoaPods-EE3322?style=flat&logo=cocoapods&logoColor=white)](#-cocoapods-iosmacos)
 [![JitPack](https://img.shields.io/badge/JitPack-2E7D32?style=flat&logo=android&logoColor=white)](#-android-jitpack)
 
 ---
@@ -91,16 +90,6 @@ pip install apiverve-acronymgenerator
 
 ---
 
-### 🍎 CocoaPods (iOS/macOS)
-
-```ruby
-pod 'APIVerveAcronymGenerator', '~> 1.0'
-```
-
-[**Package Code →**](./cocoapods/)
-
----
-
 ### 🤖 Android (JitPack)
 
 ```gradle
@@ -113,7 +102,7 @@ implementation 'com.github.apiverve:acronymgenerator-api:1.0.0'
 
 ## Features
 
-✅ **Multi-platform support** - Use the same API across Node.js, .NET, Python, iOS/macOS, Android, and browsers
+✅ **Multi-platform support** - Use the same API across Node.js, .NET, Python, Android, and browsers
 ✅ **Simple authentication** - Just add your API key in the request header
 ✅ **Comprehensive documentation** - Full examples and API reference available
 ✅ **Production-ready** - Used by developers worldwide
