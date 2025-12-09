@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 using System.Net;
 #endif
 
-namespace APIVerve
+namespace APIVerve.API.AcronymGenerator
 {
     /// <summary>
     /// Client for the APIVerve.API.AcronymGenerator API
@@ -677,7 +677,19 @@ namespace APIVerve
                     var value = prop.GetValue(options, null);
                     if (value != null)
                     {
-                        queryParams.Add(string.Format("{0}={1}", prop.Name, Uri.EscapeDataString(value.ToString())));
+                        // Get the JsonProperty attribute name if present, otherwise use property name
+                        string paramName = prop.Name;
+                        var jsonPropertyAttr = prop.GetCustomAttributes(typeof(JsonPropertyAttribute), false);
+                        if (jsonPropertyAttr.Length > 0)
+                        {
+                            var attr = (JsonPropertyAttribute)jsonPropertyAttr[0];
+                            if (!string.IsNullOrEmpty(attr.PropertyName))
+                            {
+                                paramName = attr.PropertyName;
+                            }
+                        }
+
+                        queryParams.Add(string.Format("{0}={1}", paramName, Uri.EscapeDataString(value.ToString())));
                     }
                 }
 
