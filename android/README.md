@@ -26,7 +26,7 @@ Add the dependency:
 
 ```gradle
 dependencies {
-    implementation 'com.github.apiverve:acronymgenerator-api:1.1.9'
+    implementation 'com.github.apiverve:acronymgenerator-api:1.1.12'
 }
 ```
 
