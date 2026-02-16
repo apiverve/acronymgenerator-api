@@ -221,8 +221,9 @@ from apiverve_acronymgenerator.apiClient import AcronymgeneratorAPIClient
 
 api = AcronymgeneratorAPIClient("[YOUR_API_KEY]")
 
+query = { "text": "Application Programming Interface" }
+
 try:
-    query = { "text": "Application Programming Interface" }
     result = api.execute(query)
     print(result)
 finally:
