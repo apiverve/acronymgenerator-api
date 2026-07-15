@@ -30,7 +30,7 @@ class acronymgeneratorWrapper {
         this.baseURL = 'https://api.apiverve.com/v1/acronymgenerator';
 
         // Validation rules for parameters (generated from schema)
-        this.validationRules = {"text":{"type":"string","required":true,"maxLength":200}};
+        this.validationRules = {"text":{"type":"string","required":true}};
     }
 
     /**
