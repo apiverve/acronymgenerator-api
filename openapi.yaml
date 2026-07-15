@@ -2,8 +2,9 @@ openapi: 3.0.4
 info:
   title: Acronym Generator
   description: >-
-    Acronym Generator is an AI-powered tool for creating creative acronyms from
-    text. It returns 3 unique acronym suggestions for any given phrase.
+    Acronym Generator creates acronyms from phrases by extracting the first
+    letter of each word. Input 'Application Programming Interface' and get
+    'API'.
   termsOfService: https://apiverve.com/terms/
   contact:
     name: APIVerve Support
@@ -19,7 +20,9 @@ paths:
   /v1/acronymgenerator:
     get:
       summary: Generate Acronym
-      description: Generate creative acronyms from text using AI
+      description: >-
+        Generate an acronym from a phrase by extracting the first letter of each
+        word
       operationId: acronymgenerator
       parameters:
         - name: text
@@ -27,7 +30,9 @@ paths:
           schema:
             type: string
           required: true
-          description: The text or phrase to generate acronyms from (max 200 characters)
+          description: >-
+            The phrase to generate an acronym from (must contain at least 2
+            words)
           example: Application Programming Interface
       responses:
         '200':
