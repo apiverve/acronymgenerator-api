@@ -1,6 +1,6 @@
 # Acronym Generator API
 
-Acronym Generator is an AI-powered tool for creating creative acronyms from text. It returns 3 unique acronym suggestions for any given phrase.
+Acronym Generator creates acronyms from phrases by extracting the first letter of each word. Input 'Application Programming Interface' and get 'API'.
 
 ![Build Status](https://img.shields.io/badge/build-passing-green)
 ![Code Climate](https://img.shields.io/badge/maintainability-B-purple)
@@ -125,8 +125,8 @@ async function makeRequest() {
     "text": "Application Programming Interface",
     "acronyms": [
       "API",
-      "Application's Programming Interface",
-      "Awesome Programming Interface"
+      "APP IN",
+      "Accessing Program's Interface"
     ]
   }
 }
