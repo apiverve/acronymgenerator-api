@@ -1,6 +1,6 @@
 # [Acronym Generator API](https://apiverve.com/marketplace/acronymgenerator?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
 
-Acronym Generator is an AI-powered tool for creating creative acronyms from text. It returns 3 unique acronym suggestions for any given phrase.
+Acronym Generator creates acronyms from phrases by extracting the first letter of each word. Input &#x27;Application Programming Interface&#x27; and get &#x27;API&#x27;.
 
 The Acronym Generator API provides a simple, reliable way to integrate acronym generator functionality into your applications. Built for developers who need production-ready acronym generator capabilities without the complexity of building from scratch.
 
@@ -30,7 +30,11 @@ The Acronym Generator API provides a simple, reliable way to integrate acronym g
 ```javascript
 async function callAcronymGeneratorAPI() {
     try {
-        const response = await fetch('https://api.apiverve.com/v1/acronymgenerator', {
+        const params = new URLSearchParams({
+            text: 'Application Programming Interface'
+        });
+
+        const response = await fetch(`https://api.apiverve.com/v1/acronymgenerator?${params}`, {
             method: 'GET',
             headers: {
                 'x-api-key': 'YOUR_API_KEY_HERE'
@@ -50,7 +54,7 @@ callAcronymGeneratorAPI();
 ### Using cURL
 
 ```bash
-curl -X GET "https://api.apiverve.com/v1/acronymgenerator?param=value" \
+curl -X GET "https://api.apiverve.com/v1/acronymgenerator?text=Application%20Programming%20Interface" \
   -H "x-api-key: YOUR_API_KEY_HERE"
 ```
 
@@ -150,7 +154,7 @@ go get github.com/apiverve/acronymgenerator-api/go
 |---------|---------|
 | **Multi-language SDKs** | Native packages for JavaScript, Python, C#, Go, and Android |
 | **Simple Integration** | Single API key authentication, consistent response format |
-| **Production Ready** | 99.9% uptime, fast response times, used by thousands of developers |
+| **Production Ready** | 99.9% uptime SLA, served from 24 global regions |
 | **Comprehensive Docs** | Full examples, OpenAPI spec, and dedicated support |
 
 ---
@@ -169,7 +173,7 @@ go get github.com/apiverve/acronymgenerator-api/go
 The Acronym Generator API is commonly used for:
 
 - **Web Applications** - Add acronym generator features to your frontend or backend
-- **Mobile Apps** - Native SDKs for iOS and Android development
+- **Mobile Apps** - Native SDKs for Android development
 - **Automation** - Integrate with n8n, Zapier, or custom workflows
 - **SaaS Products** - Enhance your product with acronym generator capabilities
 - **Data Pipelines** - Process and analyze data at scale
