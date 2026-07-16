@@ -11,7 +11,7 @@ namespace APIVerve.API.AcronymGenerator
     public class AcronymGeneratorQueryOptions
     {
         /// <summary>
-        /// The text or phrase to generate acronyms from (max 200 characters)
+        /// The phrase to generate an acronym from (must contain at least 2 words)
         /// </summary>
         [JsonProperty("text")]
         public string Text { get; set; }
