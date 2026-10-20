@@ -1,13 +1,13 @@
-# [Acronym Generator API](https://apiverve.com/marketplace/acronymgenerator?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+# [Acronym Generator API](https://apiverve.com/marketplace/acronymgenerator?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 
 Acronym Generator creates acronyms from phrases by extracting the first letter of each word. Input &#x27;Application Programming Interface&#x27; and get &#x27;API&#x27;.
 
 The Acronym Generator API provides a simple, reliable way to integrate acronym generator functionality into your applications. Built for developers who need production-ready acronym generator capabilities without the complexity of building from scratch.
 
-**[View API Details →](https://apiverve.com/marketplace/acronymgenerator?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)**
+**[View API Details →](https://apiverve.com/marketplace/acronymgenerator?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com/marketplace/acronymgenerator?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com/marketplace/acronymgenerator?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 [![Method](https://img.shields.io/badge/Method-GET-blue.svg)](#)
 [![Platform](https://img.shields.io/badge/Platform-Multi--Platform-orange.svg)](#installation)
 
@@ -161,7 +161,7 @@ go get github.com/apiverve/acronymgenerator-api/go
 
 ## Documentation
 
-- 🏠 **API Home:** [Acronym Generator API](https://apiverve.com/marketplace/acronymgenerator?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+- 🏠 **API Home:** [Acronym Generator API](https://apiverve.com/marketplace/acronymgenerator?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 - 📚 **API Reference:** [docs.apiverve.com/ref/acronymgenerator](https://docs.apiverve.com/ref/acronymgenerator)
 - 📖 **OpenAPI Spec:** [openapi.yaml](./openapi.yaml)
 - 💡 **Examples:** [examples/](./examples/)
@@ -225,7 +225,7 @@ A real response from the Acronym Generator API:
 
 ## Support & Community
 
-- 🏠 **API Home**: [Acronym Generator API](https://apiverve.com/marketplace/acronymgenerator?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+- 🏠 **API Home**: [Acronym Generator API](https://apiverve.com/marketplace/acronymgenerator?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 - 💬 **Support**: [https://apiverve.com/contact](https://apiverve.com/contact)
 - 🐛 **Issues**: [GitHub Issues](../../issues)
 - 📖 **Documentation**: [https://docs.apiverve.com](https://docs.apiverve.com)

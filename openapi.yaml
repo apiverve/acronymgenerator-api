@@ -19,7 +19,7 @@ servers:
 paths:
   /v1/acronymgenerator:
     get:
-      summary: Generate Acronym
+      summary: Acronym Generator
       description: >-
         Generate an acronym from a phrase by extracting the first letter of each
         word
