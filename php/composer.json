@@ -1,7 +1,7 @@
 {
     "name": "apiverve/acronymgenerator",
     "description": "Acronym Generator creates acronyms from phrases by extracting the first letter of each word. Input 'Application Programming Interface' and get 'API'.",
-    "version": "1.2.0",
+    "version": "1.2.2",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -21,7 +21,7 @@
         "create acronym",
         "abbreviation generator"
     ],
-    "homepage": "https://apiverve.com/marketplace/acronymgenerator?utm_source=php&utm_medium=homepage",
+    "homepage": "https://apiverve.com/marketplace/acronymgenerator?utm_source=php&utm_medium=referral&utm_content=homepage",
     "support": {
         "email": "hello@apiverve.com",
         "docs": "https://docs.apiverve.com/ref/acronymgenerator",
