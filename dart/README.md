@@ -1,11 +1,11 @@
 # Acronym Generator API - Dart/Flutter Client
 
-Acronym Generator is an AI-powered tool for creating creative acronyms from text. It returns 3 unique acronym suggestions for any given phrase.
+Acronym Generator creates acronyms from phrases by extracting the first letter of each word. Input 'Application Programming Interface' and get 'API'.
 
 [![pub package](https://img.shields.io/pub/v/apiverve_acronymgenerator.svg)](https://pub.dev/packages/apiverve_acronymgenerator)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This is the Dart/Flutter client for the [Acronym Generator API](https://apiverve.com/marketplace/acronymgenerator?utm_source=dart&utm_medium=readme).
+This is the Dart/Flutter client for the [Acronym Generator API](https://apiverve.com/marketplace/acronymgenerator?utm_source=dart&utm_medium=referral&utm_content=readme).
 
 ## Installation
 
@@ -13,7 +13,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  apiverve_acronymgenerator: ^1.1.14
+  apiverve_acronymgenerator: ^1.2.3
 ```
 
 Then run:
@@ -55,8 +55,8 @@ void main() async {
     "text": "Application Programming Interface",
     "acronyms": [
       "API",
-      "Application's Programming Interface",
-      "Awesome Programming Interface"
+      "APP IN",
+      "Accessing Program's Interface"
     ]
   }
 }
@@ -64,12 +64,12 @@ void main() async {
 
 ## API Reference
 
-- **API Home:** [Acronym Generator API](https://apiverve.com/marketplace/acronymgenerator?utm_source=dart&utm_medium=readme)
-- **Documentation:** [docs.apiverve.com/ref/acronymgenerator](https://docs.apiverve.com/ref/acronymgenerator?utm_source=dart&utm_medium=readme)
+- **API Home:** [Acronym Generator API](https://apiverve.com/marketplace/acronymgenerator?utm_source=dart&utm_medium=referral&utm_content=readme)
+- **Documentation:** [docs.apiverve.com/ref/acronymgenerator](https://docs.apiverve.com/ref/acronymgenerator?utm_source=dart&utm_medium=referral&utm_content=readme)
 
 ## Authentication
 
-All requests require an API key. Get yours at [apiverve.com](https://apiverve.com?utm_source=dart&utm_medium=readme).
+All requests require an API key. Get yours at [apiverve.com](https://apiverve.com?utm_source=dart&utm_medium=referral&utm_content=readme).
 
 ## License
 
@@ -77,4 +77,4 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
-Built with Dart for [APIVerve](https://apiverve.com?utm_source=dart&utm_medium=readme)
+Built with Dart for [APIVerve](https://apiverve.com?utm_source=dart&utm_medium=referral&utm_content=readme)

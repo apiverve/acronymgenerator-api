@@ -46,10 +46,10 @@ final _formatPatterns = {
 
 /// Acronym Generator API client.
 ///
-/// For more information, visit: https://apiverve.com/marketplace/acronymgenerator?utm_source=dart&utm_medium=readme
+/// For more information, visit: https://apiverve.com/marketplace/acronymgenerator?utm_source=dart&utm_medium=referral&utm_content=readme
 ///
 /// Parameters:
-/// * [text] (required) - The text or phrase to generate acronyms from (max 200 characters) [maxLength: 200]
+/// * [text] (required) - The phrase to generate an acronym from (must contain at least 2 words)
 class AcronymgeneratorClient {
   final String apiKey;
   final String baseUrl;
@@ -57,7 +57,7 @@ class AcronymgeneratorClient {
 
   /// Validation rules for parameters.
   static final Map<String, ValidationRule> _validationRules = <String, ValidationRule>{
-    'text': ValidationRule(type: 'string', required: true, maxLength: 200),
+    'text': ValidationRule(type: 'string', required: true),
   };
 
   AcronymgeneratorClient(this.apiKey, {
